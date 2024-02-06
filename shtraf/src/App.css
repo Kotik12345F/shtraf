@@ -1,0 +1,137 @@
+.cont-center{
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url('assets/nebo.jpeg');
+  background-size: 100% 280%;
+  background-repeat: no-repeat;
+}
+
+.input-window{
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.458);
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  border-radius: 60px;
+
+}
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 40px;
+}
+.input-fields input{
+  margin: 5px;
+  border:solid 5px rgb(63, 24, 92) ;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+.submit{
+  justify-content: center;
+  height: 35px;
+  border: none;
+  background-color: rgb(53, 14, 105);
+  color: white;
+  font-family: Impact, Haettenschweiler, 'BRUSH SCRIPT MT', sans-serif;
+  font-size: 20px;
+  width: 190px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.gridlist{
+  width: 300px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns:206px 206px 206px;
+}
+
+.unitcard{
+  text-align: center;
+  border: solid 3px rgb(135, 75, 188);
+  box-shadow: -5px 5px 5px 1px rgb(149, 149, 149);
+  
+}
+.buy{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(163, 203, 255);
+  border: none;
+  font-size: 30px;
+}
+.buy:hover{
+  background-color: rgb(22, 74, 143);
+}
+.unitcard hr{
+  margin:5px 5px 5px 5px;
+}
+.navbar{
+  background-color: rgb(109, 57, 157);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navbutton{
+  margin: 5px;
+  height: 40px;
+  width: 120px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(255, 226, 255);
+  border: none;
+  border-radius: 60px;
+}
+.navbutton:hover{
+  background-color: rgb(242, 201, 254);
+}
+.navbutton:active{
+  color: rgb(255, 255, 255);
+}
+
+#wtraf{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'BRUSH SCRIPT MT', sans-serif;
+  font-size: 30px;
+  margin: 40px;
+}
+
+
+.zav{
+  text-align: center;
+  display: flex;
+}
+
+.zavki{
+  background-color: rgb(61, 33, 131);
+  border:solid 5px rgb(61, 33, 131) ;
+  color: rgb(126, 168, 200);
+  border-radius: 10px;
+  margin: 7px;
+  height: 40px;
+  width: 500px;
+  font-size: 25px;
+}
+
+.profi{
+  background-color: rgb(61, 33, 131);
+  border:solid 5px rgb(61, 33, 131) ;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 7px;
+  height: 40px;
+  width: 500px;
+  font-size: 25px;
+}

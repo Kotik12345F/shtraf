@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+
+.cont-center{
+    display: flex;
+    justify-content: center;
+  }
+  
+body {
+    background-image: url('assets/nebo.jpeg');
+    background-size: 100% 280%;
+    background-repeat: no-repeat;
+}
+
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+#rr{
+    margin-top: 20px;
+    text-align: center;
+    color: #230c51;
+}
+
+
+.table{
+    height: 100px; margin: 10px;
+}
+
+.input-fon{
+    background-color: rgba(24, 16, 106, 0.828);
+    display: flex;
+    width: 1000px;
+    border-radius: 0px;
+}
+
+
+.BXOD{
+    justify-content: center;
+    height: 35px;
+    border: none;
+    background-color: rgb(53, 14, 105);
+    color: white;
+    font-size: 20px;
+    width: 190px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.input-fields input{
+    margin: 5px;
+    border:solid 5px rgb(63, 24, 92) ;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+}
+
+.input-fon{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.loginform{
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+}
+
+.login-card{
+    font-family: Impact, Haettenschweiler, 'BRUSH SCRIPT MT', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width:340px;
+    margin: 20px;
+    background-color: #34186d;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top:50px;
+}
+.login-card input{
+    padding-top:10px;
+    margin-left:70px;
+    margin-top: 20px;
+    width:200px;
+    text-align: center;
+}
+.login-card button{
+    padding-top:30px;
+    background-color: transparent;
+    color: rgb(241, 233, 233);
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
